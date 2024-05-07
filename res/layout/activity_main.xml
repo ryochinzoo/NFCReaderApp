@@ -1,0 +1,193 @@
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_gravity="center"
+	    android:background="#98c264"
+	    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="108dp"
+	    android:layout_weight="0.06"
+	    android:orientation="horizontal" >
+
+	<Button
+	        android:id="@+id/button_home"
+	        android:layout_width="108dp"
+	        android:layout_height="108dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="10dp"
+	        android:layout_gravity="left"
+	        android:minHeight="48dip"
+	        android:drawableTop="@drawable/home"
+	        android:text="Home" />
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    >
+	<Spinner
+        android:id="@+id/eventName"
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:drawSelectorOnTop="true"
+        android:layout_gravity="center_horizontal"
+         />
+	<!-- 
+	<TextView 
+	    android:id="@+id/today"
+	    android:layout_width="290dp"
+	    android:layout_height="25dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="25dp"
+	    android:textSize="30sp"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="right"
+	    /> -->
+	</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="105dp"
+	    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width = "fill_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal"
+	    >
+	<TextView
+	    android:id="@+id/viewName"
+	    android:layout_width = "400dp"
+	    android:layout_height="50dp"
+	    android:gravity="center"
+        android:textSize="30sp"
+    	android:layout_marginBottom = "34dp"
+    	android:layout_marginLeft="50dp"
+	    />
+		
+	<FrameLayout 
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    >
+	<TextView
+	    android:id="@+id/counter"
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:textSize="30sp"
+	    android:layout_marginBottom = "34dp"
+	    />
+	<TextView
+	    android:id="@+id/ordinal_counter"
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:textSize="30sp"
+	    android:layout_marginBottom = "34dp"
+	    />
+	<TextView
+	    android:id="@+id/f_counter"
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:textSize="30sp"
+	    android:layout_marginBottom = "34dp"
+	    />
+	<TextView
+	    android:id="@+id/s_counter"
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:textSize="30sp"
+	    android:layout_marginBottom = "34dp"
+	    />
+	<TextView
+	    android:id="@+id/t_counter"
+	    android:layout_width="100dp"
+	    android:layout_height="50dp"
+	    android:textSize="30sp"
+	    android:layout_marginBottom = "34dp"
+	    />
+</FrameLayout>
+</LinearLayout>
+
+<TextView
+    android:id="@+id/notification"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:textColor="#dd0000"
+    android:textSize="25sp" />
+
+</LinearLayout>
+	<FrameLayout
+	    android:layout_width="500dp"
+	    android:layout_height="497dp"
+	    android:layout_gravity="center_horizontal"
+	    android:background="#ffffff"
+	    android:orientation="vertical" >
+	   
+	<ListView 
+	        android:id="@+id/regular_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="500dp"
+	        
+	        >
+	</ListView>
+	<ListView 
+	        android:id="@+id/listView"
+	        android:layout_width="match_parent"
+	        android:layout_height="500dp"
+	        >
+	</ListView>
+	<ListView 
+	        android:id="@+id/point_1st"
+	        android:layout_width="match_parent"
+	        android:layout_height="500dp"
+	        >
+	</ListView>
+	<ListView 
+	        android:id="@+id/point_2nd"
+	        android:layout_width="match_parent"
+	        android:layout_height="500dp"
+	        >
+	</ListView>
+	<ListView 
+	        android:id="@+id/point_3rd"
+	        android:layout_width="match_parent"
+	        android:layout_height="500dp"
+	        >
+	</ListView>
+	
+	</FrameLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="58dip"
+	    android:layout_weight="0.21"
+	    android:gravity="center|bottom"
+	    android:orientation="horizontal" >
+
+	  　<Button
+	        android:id="@+id/button_start"
+	        android:layout_width="128dp"
+	        android:layout_height="68dip"
+	        android:minHeight="48dip"
+	        android:paddingTop="20dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginBottom="15dip"
+	        android:drawableTop="@drawable/left"/>
+		<Button
+	        android:id="@+id/button_end"
+	        android:layout_width="128dp"
+	        android:layout_height="68dip"
+	        android:minHeight="48dip"
+	        android:gravity="center"
+	        android:paddingTop="20dp"
+	        android:layout_marginBottom="15dip"
+	        android:layout_gravity="center_vertical"
+			android:drawableTop="@drawable/right"/>
+		</LinearLayout>
+	        
+	</LinearLayout>    	    
+<!-- </FrameLayout> -->

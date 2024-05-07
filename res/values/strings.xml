@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="main_button">スタート</string>
+	<string name="config_button">ダウンロード</string>
+	<string name="mailer_button">メール送信</string>
+    <string name="app_name">TWA</string>
+    <string name="action_settings">Settings</string>
+    
+</resources>

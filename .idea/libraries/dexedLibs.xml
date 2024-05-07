@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpcore-4.3.2-944f25ed45fb5e757b190d51f5d8db49.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/commons-codec-1.6-08457082c855cde66f17fbcb1c97871d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/fluent-hc-4.3.5-81ff0316198c0e58a7951f5c7d379975.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v7-appcompat-5da1223c02a723d7abc2d26570cbffe3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/appcompat_v7-33df87e8789d26483da161351747569a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-40c932207e45aa52fff85581827bcfc9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpclient-cache-4.3.5-4ac09c72bf331112cb2ef75f07f5d946.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpmime-4.3.5-119ff1ece28f4bc3d7aeab5528df43fa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/commons-logging-1.1.3-ecb5210ce6b34abb59045eacd38d225f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/httpclient-4.3.5-35fd5981e048995743a1c8650cd1d2a4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

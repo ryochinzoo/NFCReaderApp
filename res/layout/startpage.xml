@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+    <ImageView 
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/object"
+        android:layout_gravity="center_horizontal"
+		
+        />
+    <Button android:id="@+id/button_main"
+        android:layout_width="278dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+		android:drawableTop="@drawable/start"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/main_button"/>
+    
+    <Button android:id="@+id/button_config"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+		android:drawableTop="@drawable/configuration"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+        android:text="@string/config_button"/>
+    
+    <Button android:id="@+id/button_mailer"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+		android:drawableTop="@drawable/mail"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/mailer_button"/>
+</LinearLayout>

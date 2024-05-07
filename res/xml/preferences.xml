@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:key="mailto"
+        android:title="メール送信先"
+        android:summary="メールの送信先を指定します。"
+        android:dialogTitle="PutAddress"/>
+    <Preference android:title="ホームに戻る"
+	    		android:key="button"
+	    		android:summary="ホーム画面に戻ります"/>
+</PreferenceScreen>
